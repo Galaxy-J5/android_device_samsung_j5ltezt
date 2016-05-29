@@ -39,7 +39,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j5lte
+TARGET_OTA_ASSERT_DEVICE := j5ltezt
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
