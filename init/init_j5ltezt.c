@@ -65,7 +65,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.fingerprint", "samsung/j5ltezt/j5lte:5.1.1/LMY48B/J5007ZTU1APB1:user/release-keys");
         property_set("ro.build.description", "j5ltezt-user 5.1.1 LMY48B J5007ZTU1APB1 release-keys");
         property_set("ro.product.model", "SM-J5007");
-        property_set("ro.product.device", "j5ltezt");
+        property_set("ro.product.device", "j5lte");
 
         init_dsds();
     }
