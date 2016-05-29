@@ -23,6 +23,12 @@ TARGET_SCREEN_WIDTH := 720
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/j5ltezt/overlay
 
+LOCAL_OVERRIDES_PACKAGES += \
+    libnfc_nci \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
+
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.multisim.simslotcount=2 \
     persist.radio.multisim.config=dsds \
