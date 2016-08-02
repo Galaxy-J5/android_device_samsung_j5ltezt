@@ -42,7 +42,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
 TARGET_OTA_ASSERT_DEVICE := j5ltezt
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_j5lte_defconfig
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
